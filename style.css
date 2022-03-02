@@ -1,0 +1,223 @@
+:root {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F7F4FF;
+
+}
+
+/************** upright__box **************/
+
+.upright__box {
+    position: relative;
+    height: 613px;
+    width: 421px;
+    border-radius: 31px;
+    background-color: #EFEBFD;
+    margin: 293px auto;
+
+}
+
+
+
+/************** side__box **************/
+
+.side__box {
+    position: absolute;
+    height: 464px;
+    width: 640px;
+    border-radius: 24px;
+    background-color: #FFFFFF;
+    margin: 75px -110px;
+    text-align: center;
+
+}
+
+.side__box__search {
+    width: 348px;
+    padding: 16px;
+    border-radius: 10px;
+    border-color: cornflowerblue;
+    margin-top: 65px;
+}
+
+.side__box__search::placeholder {
+    color: brown;
+    opacity: 60%;
+}
+
+.side__box__button {
+    width: 136px;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #281A51;
+    color: #FFFFFF;
+    border-color: #281A51;
+    cursor: pointer;
+
+}
+
+.side__box__button:hover {
+    background-color: #FFFFFF;
+    color: #281A51;
+
+}
+
+
+/************** frame__box__up **************/
+
+.frame__boxs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 32px;
+    cursor: pointer;
+
+}
+
+.frame__furniture {
+    width: 112px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #FFECEC;
+    text-align: center;
+    margin-left: 16px;
+
+}
+
+.frame__furniture:hover {
+    background-color: brown;
+    opacity: 70%;
+}
+
+
+
+.frame__property {
+    width: 112px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #F7ECFF;
+    text-align: center;
+    margin-left: 16px;
+
+}
+
+.frame__property:hover {
+    background-color: blue;
+    opacity: 70%;
+}
+
+.frame__job {
+    width: 112px;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #ECF0FF;
+    text-align: center;
+    margin-left: 16px;
+
+}
+
+.frame__job:hover {
+    background-color: blueviolet;
+    opacity: 70%;
+}
+
+.frame__travel {
+    width: 112px;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #D7F9F3;
+    text-align: center;
+    margin-left: 16px;
+
+}
+
+.frame__travel:hover {
+    background-color: chocolate;
+    opacity: 70%;
+}
+
+/************** frame__box__down **************/
+
+.frame__boxs__down {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+
+
+
+
+.frame__boat {
+    width: 112px;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #E2FFD4;
+    text-align: center;
+    margin-left: 16px;
+
+
+}
+
+.frame__boat:hover {
+    background-color: gold;
+    opacity: 70%;
+}
+
+.frame__mc {
+    width: 112px;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #FFFFFF;
+    text-align: center;
+    margin-left: 16px;
+    border: 1px #DBD5EC solid;
+    box-shadow: 0px 14px 16px rgba(41, 11, 128, 0.1);
+
+
+}
+
+.frame__mc:hover {
+    background-color: deeppink;
+    opacity: 70%;
+}
+
+.frame__economy {
+    width: 112px;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #FFF3C9;
+    text-align: center;
+    margin-left: 16px;
+
+}
+
+.frame__economy:hover {
+    background-color: lightseagreen;
+    opacity: 70%;
+}
+
+.frame__holiday {
+    width: 112px;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: #FFD9C9;
+    text-align: center;
+    margin-left: 16px;
+
+}
+
+.frame__holiday:hover {
+    background-color: orangered;
+    opacity: 70%;
+}
