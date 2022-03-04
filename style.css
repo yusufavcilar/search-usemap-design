@@ -26,8 +26,14 @@ body {
 }
 
 
-
 /************** side__box **************/
+.box {
+    width: 112px;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+    margin-left: 16px;
+}
 
 .side__box {
     position: absolute;
@@ -83,13 +89,7 @@ body {
 }
 
 .frame__furniture {
-    width: 112px;
-    border-radius: 8px;
-    padding: 24px;
     background-color: #FFECEC;
-    text-align: center;
-    margin-left: 16px;
-
 }
 
 .frame__furniture:hover {
@@ -100,13 +100,7 @@ body {
 
 
 .frame__property {
-    width: 112px;
-    border-radius: 8px;
-    padding: 24px;
     background-color: #F7ECFF;
-    text-align: center;
-    margin-left: 16px;
-
 }
 
 .frame__property:hover {
@@ -115,13 +109,7 @@ body {
 }
 
 .frame__job {
-    width: 112px;
-    border-radius: 8px;
-    padding: 24px;
     background-color: #ECF0FF;
-    text-align: center;
-    margin-left: 16px;
-
 }
 
 .frame__job:hover {
@@ -130,12 +118,7 @@ body {
 }
 
 .frame__travel {
-    width: 112px;
-    border-radius: 8px;
-    padding: 30px;
-    background-color: #D7F9F3;
-    text-align: center;
-    margin-left: 16px;
+    background-color:#D7F9F3;
 
 }
 
@@ -159,14 +142,7 @@ body {
 
 
 .frame__boat {
-    width: 112px;
-    border-radius: 8px;
-    padding: 30px;
     background-color: #E2FFD4;
-    text-align: center;
-    margin-left: 16px;
-
-
 }
 
 .frame__boat:hover {
@@ -175,12 +151,7 @@ body {
 }
 
 .frame__mc {
-    width: 112px;
-    border-radius: 8px;
-    padding: 30px;
     background-color: #FFFFFF;
-    text-align: center;
-    margin-left: 16px;
     border: 1px #DBD5EC solid;
     box-shadow: 0px 14px 16px rgba(41, 11, 128, 0.1);
 
@@ -193,13 +164,7 @@ body {
 }
 
 .frame__economy {
-    width: 112px;
-    border-radius: 8px;
-    padding: 30px;
-    background-color: #FFF3C9;
-    text-align: center;
-    margin-left: 16px;
-
+   background-color: #FFF3C9;
 }
 
 .frame__economy:hover {
@@ -208,13 +173,7 @@ body {
 }
 
 .frame__holiday {
-    width: 112px;
-    border-radius: 8px;
-    padding: 30px;
     background-color: #FFD9C9;
-    text-align: center;
-    margin-left: 16px;
-
 }
 
 .frame__holiday:hover {
